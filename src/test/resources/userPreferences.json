@@ -1,0 +1,22 @@
+[
+  {
+    "userId": "1",
+    "name": "raymond",
+    "color": "blue"
+  },
+  {
+    "userId": "2",
+    "name": "morgan",
+    "color": "blue"
+  },
+  {
+    "name": "jp",
+    "userId": "3",
+    "color": "red"
+  },
+  {
+    "name": "jp",
+    "userId": "3",
+    "color": "black"
+  }
+]
