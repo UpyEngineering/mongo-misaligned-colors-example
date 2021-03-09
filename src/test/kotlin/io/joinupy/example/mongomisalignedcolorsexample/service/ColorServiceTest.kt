@@ -1,5 +1,7 @@
 package io.joinupy.example.mongomisalignedcolorsexample.service
 
+import brave.Tracing
+import io.joinupy.example.mongomisalignedcolorsexample.ColorTest
 import io.joinupy.example.mongomisalignedcolorsexample.config.StartupDataConfig
 import org.assertj.core.api.AssertionsForClassTypes.assertThat
 import org.junit.jupiter.api.BeforeEach
@@ -8,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import reactor.kotlin.test.test
 
-@SpringBootTest
+@ColorTest
 class ColorServiceTest(
 	@Autowired private val startupData: StartupDataConfig,
 	@Autowired private val colorService: ColorService,

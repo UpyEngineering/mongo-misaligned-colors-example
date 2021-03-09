@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: mongo-misaligned-colors-example
+  profiles:
+    active: prod
