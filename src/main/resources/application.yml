@@ -3,3 +3,6 @@ spring:
     name: mongo-misaligned-colors-example
   profiles:
     active: prod
+  sleuth:
+    mongodb:
+      enabled: false

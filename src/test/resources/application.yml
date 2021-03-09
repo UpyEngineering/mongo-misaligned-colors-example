@@ -3,9 +3,9 @@ spring:
     name: mongo-misaligned-colors-example
   profiles:
     active: test
-#  sleuth:
-#    mongodb:
-#      enabled: false
+  sleuth:
+    mongodb:
+      enabled: false
 #    reactor:
 #      enabled: false
 #    enabled: false
