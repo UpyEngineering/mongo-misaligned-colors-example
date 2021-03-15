@@ -13,9 +13,11 @@ java.sourceCompatibility = JavaVersion.VERSION_15
 
 repositories {
 	mavenCentral()
+	maven("https://repo.spring.io/snapshot")
+	maven("https://repo.spring.io/libs-spring-framework-build")
 }
 
-extra["springCloudVersion"] = "2020.0.1"
+extra["springCloudVersion"] = "2020.0.2-SNAPSHOT"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb-reactive")

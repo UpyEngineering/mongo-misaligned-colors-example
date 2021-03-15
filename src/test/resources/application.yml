@@ -4,8 +4,14 @@ spring:
   profiles:
     active: test
 #  sleuth:
+#    reactor:
+#      instrumentation-type: DECORATE_QUEUES
+
+  #  sleuth:
 #    mongodb:
 #      enabled: false
 #    reactor:
 #      enabled: false
 #    enabled: false
+
+
